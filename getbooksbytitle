@@ -1,1 +1,14 @@
+cURL Command:
 
+curl "http://localhost:5000/books/title/1984"
+
+Output:
+
+[
+  {
+    "isbn": "1",
+    "title": "1984",
+    "author": "George Orwell",
+    "reviews": {}
+  }
+]
